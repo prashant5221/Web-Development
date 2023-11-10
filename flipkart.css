@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+  
+.navbar{
+    height: 60px;
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("flikartlogo.png");
+    height: 50px;
+    width: 100PX;
+    background-size: cover;
+    color: #007185;
+    padding: 12px;
+     
+}
+.nav-search{
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    width: 920px;
+    height: 40px;
+  
+    
+    
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+
+}
+.search-input{
+    width: 65%;
+    font-size: 1rem;
+    
+}
+.Search-Icon{
+    background-color: aqua;
+    color: black;
+    width: 44px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    
+    
+}
+.nav-seller  {
+     
+    color: black ;
+    width: 50px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+.nav-seller p{
+    color: blue;
+    padding: 5px;
+    font-size: 17px;
+}
+.nav-signin {
+    color: black;
+    width: 50px;
+    height: 24px;
+    padding: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-signin p {
+    color: blue;
+    padding: 5px;
+}
+.nav-cart{
+    color: black;
+    width: 50px;
+    height: 24px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+     
+    
+}
+.nav-cart p{
+    color: blue;
+    padding: 5px;
+}
+.nav-bar {
+    color: black;
+    width: 50px;
+    height: 24px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+  .nav-bar p{
+    color: blue;
+    padding: 5px;
+
+  }
+ .panel {
+    height: 100px;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: white;
+ } 
+ .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+ .shop-section{
+    display: flex;
+    flex-wrap: wrap 6;
+    justify-content: space-evenly;
+    background-color: #e3e7e6;
+    padding: 12px;
+    padding-left: 12px;
+    column-gap: 1.2rem;
+ }
+ .box{
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+ }
+ .box-img{
+    height: 300px;
+    background-image: contain;
+}
+.box p{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+.shop-section2{
+    display: flex;
+    flex-wrap: wrap 4;
+    justify-content: space-evenly;
+    background-color:#e3e7e6 ;
+    column-gap: 1.2rem;
+    height: 22%;
+
+}
+.heading h2{
+    padding: 15px;
+    color: black;
+}
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.foot-panel2 p{
+    align-items: center;
+    color:blue;
+    padding: 8PX;
+}
+.foot-panel3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #222f3d;
+    color: white;
+
+}
+.foot-panel4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #222f3d;
+    color: white;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 8px;
+}
+  
